@@ -1,11 +1,19 @@
-To test this:
+# chroot example
 
-make
+## Description
 
-./chroot-example
+Some example code to understand and play around with the details of chroot.
 
-# notice it will list out the files in your root directory
+## Building
 
-sudo chroot /full/path/to/this/project/ /chroot-example
+    $ make
 
-# notice it will only list out the files in this project
+## Running
+
+    $ ./chroot-example
+
+Notice it will list out the files in your root directory.
+
+    $ sudo chroot /full/path/to/this/project/ /chroot-example
+
+Notice it will only list out the files in this project's directory.
